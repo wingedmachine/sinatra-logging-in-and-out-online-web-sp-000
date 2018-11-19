@@ -21,7 +21,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/account' do
-    @helper = Helpers.new
     erb :account
   end
 
