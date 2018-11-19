@@ -21,7 +21,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/account' do
-    @user = current_user
     erb :account
   end
 
